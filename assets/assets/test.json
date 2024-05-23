@@ -1,0 +1,62 @@
+{
+  "id": 6,
+  "name": "khalil",
+  "surname": "Doe",
+  "username": "kmelliti",
+  "email": "khalil@gmail.com",
+  "email_verified_at": null,
+  "created_at": "2024-02-29T09:10:17.000Z",
+  "updated_at": "2024-02-29T09:10:17.000Z",
+  "accounts": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "role": {
+        "id": "1",
+        "code": "Admin",
+        "name": "Super admin",
+        "default": true,
+        "permissions": [
+          {
+            "id": 2,
+            "name": "Test permission",
+            "code":"code",
+            "permission_category_id":1
+          }
+        ]
+      }
+    },{
+      "id": 1,
+      "user_id": 1,
+      "role": {
+        "id": "1",
+        "code": "Admin",
+        "name": "Admin anme",
+
+        "default": false,
+        "permissions": [
+          {
+            "id": 2,
+            "name": "Test permission",
+            "code":"code",
+            "permission_category_id":1
+          }
+        ]
+      }
+    }
+  ],
+  "role": {
+    "id": "1",
+    "code": "Admin",
+    "name": "Admin",
+    "default": false,
+    "permissions": [
+      {
+        "id": 2,
+        "name": "Test permission",
+        "code":"code",
+        "permission_category_id":1
+      }
+    ]
+  }
+}
